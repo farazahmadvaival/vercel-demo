@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'launchpad-icons';
+  src: url('../font/launchpad-icons.eot?79592461');
+  src: url('../font/launchpad-icons.eot?79592461#iefix') format('embedded-opentype'),
+       url('../font/launchpad-icons.woff2?79592461') format('woff2'),
+       url('../font/launchpad-icons.woff?79592461') format('woff'),
+       url('../font/launchpad-icons.ttf?79592461') format('truetype'),
+       url('../font/launchpad-icons.svg?79592461#launchpad-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'launchpad-icons';
+    src: url('../font/launchpad-icons.svg?79592461#launchpad-icons') format('svg');
+  }
+}
+*/
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "launchpad-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-copy:before { content: '\e800'; } /* '' */
+.icon-image:before { content: '\e801'; } /* '' */
+.icon-search:before { content: '\e802'; } /* '' */
+.icon-close:before { content: '\e803'; } /* '' */
+.icon-ChevronDown:before { content: '\e804'; } /* '' */
+.icon-tick:before { content: '\e805'; } /* '' */
+.icon-internet:before { content: '\e806'; } /* '' */
+.icon-transfer:before { content: '\e807'; } /* '' */
+.icon-instagram:before { content: '\e808'; } /* '' */
+.icon-twitter:before { content: '\e809'; } /* '' */
+.icon-groupbar:before { content: '\e80a'; } /* '' */
+.icon-share:before { content: '\e80b'; } /* '' */
+.icon-telegram:before { content: '\e80c'; } /* '' */
+.icon-Chevron:before { content: '\e80d'; } /* '' */
+.icon-grid:before { content: '\e80e'; } /* '' */
+.icon-list:before { content: '\e80f'; } /* '' */
+.icon-funnel:before { content: '\e810'; } /* '' */
+.icon-remove:before { content: '\e811'; } /* '' */
+.icon-medium:before { content: '\e812'; } /* '' */
+.icon-reddit:before { content: '\e813'; } /* '' */
+.icon-right:before { content: '\e814'; } /* '' */
+.icon-listed:before { content: '\e815'; } /* '' */
+.icon-calendar:before { content: '\e816'; } /* '' */
+.icon-froggy:before { content: '\e817'; } /* '' */
+.icon-menu:before { content: '\e818'; } /* '' */
+.icon-hash:before { content: '\e819'; } /* '' */
+.icon-document-eye:before { content: '\e81a'; } /* '' */
+.icon-fill-twiter:before { content: '\e81b'; } /* '' */
+.icon-vector:before { content: '\e81c'; } /* '' */
+.icon-facebook:before { content: '\e81d'; } /* '' */
+.icon-fill-tele:before { content: '\e81e'; } /* '' */
+.icon-at:before { content: '\e81f'; } /* '' */
+.icon-copy-1:before { content: '\e820'; } /* '' */
+.icon-dropdown:before { content: '\e820'; } /* '' */
+.icon-plus:before { content: '\e821'; } /* '' */
+.icon-arrow-left:before { content: '\e822'; } /* '' */
+.icon-arrow-right:before { content: '\e823'; } /* '' */
+.icon-up:before { content: '\e824'; } /* '' */
+.icon-down:before { content: '\e825'; } /* '' */
+.icon-watch:before { content: '\e826'; } /* '' */
+.icon-mint-nft:before { content: '\e84a'; } /* '' */
+.icon-cart:before { content: '\e84b'; } /* '' */
+.icon-whatsapp:before { content: '\f232'; } /* '' */
